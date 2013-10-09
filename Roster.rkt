@@ -1,0 +1,12 @@
+#lang racket
+(struct student (name id# dorm))
+> (define Desire (student 'Desire 7860 'PHS))
+> (define Junior (student 'Junior 7823 'PHS))
+> (define Felicia (student 'Felicia 7875 'Jville))
+> (define Sheldon (student 'Sheldon 78721 'LBJ))
+> (define Pokemon (student 'Pokemon 64900 'CartoonNetwork))
+> (define Wavell (student 'Wavell 8975 'Programmer))
+> (define Nikki (student 'Nikki 468466 'Doctor))
+> (define Dawn (student 'Dawn 5455474 'Poetic))
+> (define Trey (student 'Trey 4556 'StoneyPoint))
+> (define Marquise (student 'Marquise 48964 'StoneyPoint))
